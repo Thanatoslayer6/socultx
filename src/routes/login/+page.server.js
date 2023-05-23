@@ -1,7 +1,9 @@
-/** @type {import('./$types').Actions} */
+import { redirect } from '@sveltejs/kit';
 
+/** @type {import('./$types').Actions} */
 export const actions = {
-  login: async () => {
-    console.log("logged in via action")
+  default: async ({ cookies }) => {
+    console.log("Logging in, and now redirecting to homepage")
+    throw redirect(302, '/')
   }
 };

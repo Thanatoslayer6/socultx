@@ -28,6 +28,6 @@ export async function load({ locals }) {
 	return {
 		user: userStuff,
 		uid: userUID,
-    posts: dataToStore.posts
+    	posts: dataToStore.posts
 	};
 }

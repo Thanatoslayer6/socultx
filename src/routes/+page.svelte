@@ -69,9 +69,7 @@
 		console.log('Posted!');
 	}
 
-	// async function getMyUserName() {
-	// 	console.log('Username from session: ' + data.user.username);
-	// }
+
 </script>
 
 {#if isLoggedIn}
@@ -95,5 +93,3 @@
 {:else}
 	<button class="bg-neutral-700 p-2 text-white" on:click={login}>Log In</button>
 {/if}
-
-<!-- <button on:click={getMyUserName}>Test</button> -->

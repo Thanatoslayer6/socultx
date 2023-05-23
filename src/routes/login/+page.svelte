@@ -1,7 +1,1 @@
-<script>
-  // testing
-</script>
-
-<form method="post">
-  <button formaction="?/login">Log in Action</button>
-</form>
+<div>You are now logging in</div>
